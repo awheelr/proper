@@ -1,0 +1,12 @@
+<ng-template #textWrapperTemplate>
+  <div #dynamicDiv
+       class="wordsWrapper"
+       (keydown)="onInput($event)"
+       contenteditable="true"
+       tabindex="0">
+    <p>...</p>
+  </div>
+</ng-template>
+
+<div #mainContainer></div>
+

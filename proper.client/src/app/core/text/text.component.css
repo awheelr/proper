@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap');
+
+.inputer {
+  opacity: 100;
+  border: none;
+  overflow: visible;
+}
+
+.content-grid {
+  height: 100%;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 1056px;
+}
+
+.wordsWrapper {
+  font-family: "Vazirmatn", serif;
+  margin: 0 auto;
+  text-align: left;
+  width: 50%;
+  padding-top: 10px;
+}
+
+  .wordsWrapper:focus {
+    outline: none;
+  }
+
+.wordsWrapper > p {
+  background-color: #f4f5f5;
+  border-radius: 10px;
+  padding: 5px;
+  font-family: "Vazirmatn", serif;
+  margin: 0 auto;
+}
